@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  .box{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* 线性渐变三要素：渐变方向  起始颜色  结束颜色 */
+    /* 0deg 从下到上渐变  正角度是顺时针 to (top left bottom right)  渐变方向 */
+    /* background: linear-gradient(to top,red,green); */
+    /* 径向渐变四要素：中心点  半径  起始颜色 结束颜色 */
+    /* 半径 at 中心，起始颜色，结束颜色 */
+    background: radial-gradient(150px at left top,red,green);
+  }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>
